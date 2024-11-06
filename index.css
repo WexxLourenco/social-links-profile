@@ -4,13 +4,21 @@ body {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-size: 16px;   
+    align-items: center;
 }  
 
 .container {
     align-items: center;
-    max-width: 500px;
+    max-width: 300px;
     display: block;
     background-color: rgb(23, 22, 22);
+    flex-wrap: wrap;
+    margin-left: 425px;
+}
+
+.profile {
+    padding-left: 75px;
+    padding-top: 20px;    
 }
 
 img {
@@ -23,4 +31,23 @@ img {
 }
 .menu {
     border: 5px solid green;
+}
+.section1 {
+    border: 5px solid blue;
+}
+
+.section2 {
+    border: 5px solid yellow;
+}
+
+.section3 {
+    border: 5px solid purple;
+}
+
+.section4 {
+    border: 5px solid orange;
+}
+
+.section5 {
+    border: 5px solid brown;
 }
