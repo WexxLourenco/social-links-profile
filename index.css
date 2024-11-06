@@ -1,4 +1,26 @@
 body {
     background-color: black;
-    color: white;
+    color: white; 
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 16px;   
+}  
+
+.container {
+    align-items: center;
+    max-width: 500px;
+    display: block;
+    background-color: rgb(23, 22, 22);
+}
+
+img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.top {
+    border: 5px solid red;
+}
+.menu {
+    border: 5px solid green;
 }
